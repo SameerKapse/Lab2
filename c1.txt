@@ -1,0 +1,22 @@
+#node -version
+#npm init 
+#npm install express
+
+********index.js*********
+const express=require('express');
+const app=express();
+
+app.use(express.static('public'));
+
+const port=3000;
+app.listen(port, ()=>{
+    console.log('Hello');
+});
+
+app.get('/',(req,res)=>{
+    res.send("<h1>Static web Page</h1>");
+});
+*************************
+
+#node index.js
+#localhost:3000

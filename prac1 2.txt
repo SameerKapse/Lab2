@@ -1,0 +1,41 @@
+#########################1######################################
+
+1.	gcloud projects list
+2.	gcloud config set project  Project_name
+3.	git clone https://github.com/SameerKapse/python-docs-samples
+4.	ls
+5.	cd python-docs-samples/
+6.	ls
+7.	cd appengine/
+8.	ls
+9.	cd standard_python3/
+10.	ls
+11.	cd hello_world/
+12.	ls
+13.	python3 main.py
+14.	open ip
+
+#########################2######################################
+
+
+main.py:>>>>>>
+import webapp2
+
+class MainPage(webapp2.RequestHandler):
+    def get(self):
+        self.response.write("Hello Its Sammeer ")
+
+app=webapp2.WSGIApplication([('/',MainPage)],debug=True)
+
+app.yaml:>>>>>>
+runtime: python27 
+api_version: 1
+threadsafe: false
+
+handlers:
+- url: /
+  script: main.app
+
+
+
+

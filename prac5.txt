@@ -1,0 +1,9 @@
+1. sign in aws
+2. launch an ec2 instance, name it
+3. instacne type- t2.micro
+4. create new key pair
+5. name it, type- rsa, format- .ppk - create
+6. launch instance
+7. open instance
+8. connect to instance
+9. terminate :(

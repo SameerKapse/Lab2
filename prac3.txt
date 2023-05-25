@@ -1,0 +1,10 @@
+1. Install java (if not,download,install,set path)
+2. download cloudsim3.0.3 (zip file)
+3. download common math3(zip file)
+4. Install eclipse
+5. copy common-math.3 jar file and  paste into cloudsim3.0.3/ jars
+6. build a new java project
+7. set path as cloudsim folder
+8. check jar files in library while creating project
+9. dont create module
+10. in cloudsim folder in eclipse, run sample code
